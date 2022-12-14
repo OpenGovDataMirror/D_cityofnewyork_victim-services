@@ -1,0 +1,433 @@
+span.srch-lbl-sm {
+  font-size: 80%;
+}
+
+.lst-srch .srch {
+  left: 0px;
+}
+
+.srch ul li:hover {
+  background-color: #004466;
+}
+
+.fnd #banner {
+  background-size: 163px 24px;
+  padding-left: 170px;
+}
+
+.fnd #banner span {
+  cursor: pointer;
+}
+
+.reset {
+  width: 100px;
+  margin: calc(50% - 50px);
+  margin-top: 10px;
+}
+
+.clps button, .reset {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.facility a.btn.phone {
+  padding-left: 28px;
+  width: calc(50% - 33px);
+} 
+
+.tabs .btns button.btn.active, #facilities, .tabs .container .tab.active, .tabs .btns button.btn.active * {
+  background-color: var(--color-primary);
+  color: black;
+}
+
+.btn-sq{
+  background-color: var(--color-dark);
+  border: 1px solid black;
+}
+
+.btn-sq:hover {
+  background-color: var(--color-hover-light);
+}
+
+a.btn.rad-all.call, button.btn.rad-all.call {
+  background-image: var(--phone-icon-medium); 
+}
+
+#phn {
+  position: absolute;
+  left: 3px;
+  bottom: 5px;
+  height: 35px;
+  width: 33px;
+}
+.translated-rtl #phn {
+  left: -30px;
+}
+
+.btn-phn, a.btn-phn.btn-sq.rad-all {
+  background-image: var(--phone-icon-light);
+}
+
+#info {
+  position: absolute;
+  left: 44px;
+  bottom: 5px;
+  height: 35px;
+  width: 33px;
+}
+.translated-rtl #info {
+  left: 11px;
+}
+
+.btn-info {
+  background-image: var(--info-icon-light);
+} 
+
+.shr {
+  position: absolute;
+  bottom: 46px;
+  height: 35px;
+  width: 35px;
+}
+
+.btn-shr {
+  height: 35px;
+  width: 33px;
+  margin-right: 9px;
+}
+
+.translated-rtl .shr {
+  text-align: left;
+}
+
+.shr .btns {
+  position: fixed;
+  left: 43px;
+}
+
+.btn-shr, .shr .btns a {
+  width: 35px;
+  height: 35px;
+  margin: 0 4px 0 0;
+}
+
+#lng .btn-sq, #lng select {
+  padding: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.translated-rtl #lng {
+  left: 85px;
+}
+
+#lng {
+  position: absolute;
+  left: 85px;
+  bottom: 7px;
+}
+
+#lng div.btn:after {
+  background-color: var(--color-dark);
+}
+
+.btn-z-out {
+  left: 0;
+  top: 39px;
+}
+
+.btn-geo {
+  left: 0px;
+  top: 78px;
+}
+
+.clps button:before {
+  background-color: var(--color-dark);
+  opacity: 0.50;
+}   
+
+.clps button:hover:before {
+  background-color: var(--color-dark);
+  opacity: 1;
+}
+    
+.translated-rtl .facility .name, .translated-rtl .pop>.content .name {
+  padding-right: 0px;
+}
+.translated-rtl .pop>.content .name.accessible, .translated-rtl .pop>.content .name.accessible.fjc, .translated-rtl .pop>.content .name.fjc {
+  padding-right: 25px;
+}
+.facility .name.accessible, .srch-lbl-lg10 {
+  background-image: url("../img/acc.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+  padding-bottom: 5px;
+}
+
+.facility .name.fjc, .srch-lbl-lg01 {
+  background-image: url("../img/icon-fjc.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+  padding-bottom: 5px;
+}
+
+.facility .name.accessible.fjc, .srch-lbl-lg11 {
+  background-image: url("../img/acc-fjc.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+  padding-bottom: 5px;
+}
+
+.pop .btn-x, {
+  background-image: var(--x-icon-light);
+  background-color: var(--color-dark);
+  opacity: 0.50;  
+}
+
+.pop .btn-x:hover,  {
+  background-image: var(--x-icon-light);
+  background-color: var(--color-dark);
+  opacity: 1;  
+ }
+
+.btn-rnd {
+  background-color: var(--color-dark);
+  opacity: 0.50; 
+}
+
+.btn-rnd:hover {
+  background-color: var(--color-dark);
+  opacity: 1;  
+}
+ 
+a.filter-info {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  float: right;
+  color: rgb(0,124,186);
+  border: 3px solid rgb(0,124,186);
+  border-radius: 50%;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+  line-height: 130%;
+  cursor: pointer;
+} 
+.translated-rtl a.filter-info {
+  float: left;
+}
+
+.filter-reveal {
+  display: none;
+  line-height: 130%;
+  font-weight: normal;
+}
+
+.chc-chc {
+  font-weight: bold;
+}
+
+.clps div.content {
+  background-color: #CCE1E6;
+  line-height: 20px;
+}
+
+.chc {
+  border: 1px solid;
+  border-radius: 0px;
+  width: 75%;
+  margin-left: calc(25% - 55px);
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+.detail .name {
+  text-transform: capitalize;
+}
+
+.dtl ul {
+  padding-left: 25px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.detail .name {
+  padding-bottom: 15px;
+} 
+
+.btn {
+  border: 1px solid black;
+}
+
+.tabs .btns button.btn {
+  border: 1px ridge black;
+  margin-top: -.75px;
+  margin-left: 1px;
+}
+
+.fnd .splash .dia, .phone-dia .dia, .info-dia .dia {
+  background-color: var(--color-dark);
+}
+
+.fnd .splash .dia-msg button, #phone-content a, #info-content a {
+  display: block;
+  background-position: 5px 50%;
+  background-size: 28px;
+  color: var(--color-dark);
+  text-align: center;
+}
+
+#info-content a, #phone-content a {
+  white-space: normal;
+  height: auto;
+  margin-bottom: 5px;
+  padding: 8px 30px;
+}
+.translated-rtl #info-content a, .translated-rtl #phone-content a {
+  background-position: calc(100% - 3px) center;
+}
+
+#info-content p {
+  color: white;
+}
+
+.fnd .splash .dia-msg button {
+  width: 100%;
+  height: 43px;
+}
+
+.fnd .splash .dia a.btn-ok {
+  width: 75%;
+}
+
+.dia-msg h1 {
+  font-size: 24px;
+}
+
+.phone-dia .dia, .info-dia .dia {
+  width: 400px;
+  margin-left: -208px;
+  margin-top: -140px;
+}
+
+.pop>.content {
+  overflow-x: hidden;
+  max-width: 320px;
+}
+
+.fullscreen.pop > .content {
+  width: 100%; 
+  max-width: 100%;
+}
+
+.fjc-btns {
+  padding-top: 20px;
+}
+
+.fnd .pop .fjc-btns button, .fnd .pop .fjc-btns a {
+  display: block;
+  width: calc(100% - 10px);
+  margin-top: 4px;
+  white-space: normal;
+  padding: 8px 0;
+  height: auto;
+}
+
+.it-pg .btns {
+  width: calc(100% - 3px);
+}
+
+ @media only screen and (max-height : 350px) {
+  .phone-dia .dia, .info-dia .dia {
+    overflow: auto;
+    display: block;
+    height: 98%;
+    margin-top: -147px;
+  }
+  .dia-btns {
+    margin-bottom: -10px;
+  }
+} 
+@media only screen and (max-width : 400px) {
+  .phone-dia .dia, .info-dia .dia {
+    width: 90%;
+    margin-left: -49%;
+  }
+
+} 
+
+.fjc-btns hr {
+  color: black;
+  height: 1px;
+  border-width: 0px;
+  background-color: white;
+}
+  
+.fnd .pop .fjc-btns a {
+  width: calc(100% - 12px);
+}
+.fnd .splash .dia-msg * {
+  color: inherit;
+  text-align: left;
+}
+.translated-rtl .fnd .splash .dia-msg .call {
+  text-align: center;
+}
+a.btn.rad-all.web font {
+  padding-left: 10px;
+}
+.translated-rtl a.btn.rad-all.web font {
+  padding-right: 10px;
+}
+
+.fnd .splash button.btn.rad-all.call {
+  height: 65px;
+}
+
+@media only screen and (max-width: 315px){
+  #back-to-map {
+      width: 90px;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  #back-to-map {
+      width: 150px;
+  }
+}
+
+#back-to-map.btn:before {
+  background-color: transparent;
+}
+
+.translated-rtl a.btn.rad-all.phone {
+  padding-right: 28px;
+  padding-left: 0px;
+}
+
+.sub-clps {
+  margin: 3px 0;
+}
+.sub-clps:last-of-type {
+  margin-bottom: 0;
+}
+
+.chc-chc td:last-of-type {
+  width: 100%;
+}
+
+.chc-chc td {
+  padding-right: 10px;
+}
+
+.fnd .splash .dia-msg {
+  height: calc(100% - 139px);
+}
